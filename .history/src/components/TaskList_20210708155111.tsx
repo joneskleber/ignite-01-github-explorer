@@ -39,8 +39,6 @@ export function TaskList() {
       isComplete: !task.isComplete
     } : task);
 
-    setTasks(editTasks);
-
   }
 
   function handleRemoveTask(id: number) {
